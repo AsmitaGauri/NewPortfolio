@@ -108,6 +108,7 @@ background-size: cover;
 	font-size: 3.5em;
 	margin-bottom: 15px;
 	text-align: center;
+	font-family: 'Righteous', cursive;
 }
 
 @media(max-width:900px){
@@ -116,7 +117,7 @@ background-size: cover;
 	}
 
 	.subHeading{
-			font-size: 2rem !important;
+			font-size: 2.2rem !important;
 			text-decoration: underline;
 	}
 
@@ -142,10 +143,13 @@ background-size: cover;
 	color:#E53759;
 	font-size: 2rem;
 	padding-bottom: 20px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
 }
 
 p{
 	font-size:19px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -355,4 +359,8 @@ a{
 #projects a{
 	margin-left:auto;
 	margin-right: auto;
+}
+
+ul{
+	font-family: 'Montserrat', sans-serif;
 }
