@@ -196,7 +196,7 @@ p{
 }
 
 @media(min-width:992px){
-	#first{
+	.first{
 		 float: right;
 	}
 
@@ -342,20 +342,36 @@ a{
 	height:160.91px !important;
 }*/
 
-@media(max-width: 900px){
+@media(max-width: 992px){
 	.card{
-		width:90% !important;
+		width:60% !important;
 		/*padding:auto;*/
+		margin:0 auto !important;
 		
 
 	}
 
-	div.card{
-		margin-left: auto !important;
+	/*div.card{
+		margin-left: auto!important;
 		margin-right:auto !important;
+	}*/
+}
+@media(max-width: 500px){
+	.card{
+		width:90% !important;
 	}
 }
 
+/*@media(max-width: 992px){
+	.shift{
+		align-content: center;
+		margin:0 auto;
+	}
+
+	div.card{
+		
+	}
+}*/
 #projects a{
 	margin-left:auto;
 	margin-right: auto;
